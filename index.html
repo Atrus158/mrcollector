@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=4.0" />
+	
+	<title>Mr. Collector Dot Org</title>
+	<meta name="description" content="Website for a collector extraordinaire, featuring playing cards, Skylanders, and Reaper miniatures."/>
+	<meta name="keywords" content="Playing Cards, Bicycle, Steampunk, Alice in Wonderland, Skylanders, Bones, Reaper Miniatures, Spyro's Adventure, Collections, Collectors">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:768px)" href="css/tablet.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width:480px)" href="css/mobile.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><!-- jQuery -->
+	<script src="scripts/collections.js"></script>
+	<script src="scripts/collector.js"></script>
+</head>
+<body>
+	<div id="header" class="sections">
+		<div id="styleOptions">
+			<span id="styleTitle">Select a style</span>
+			<span id="sleek">Sleek </span><span> | </span><span id="antique"> Antique</span>
+		</div>
+		<div id="introText">
+			<p>My name is Tad Hendriks.<br />I collect things.<br />These are some of them.</p>
+		</div>
+		<div class="linkBoxContainer">
+			<div class="linkBoxSubContainer">
+				<div id="A" class="linkBox clearLeft">
+					<p>Playing Cards</p>
+				</div>
+				<div class="linkBoxMiniContainer">
+					<div id="B" class="linkBox">
+						<p>Skylanders<br class="textBreak" /><span class="optionalText">Spyro's</span><br class="textBreak" /><span class="optionalText">Adventures</span></p>
+					</div>
+					<div id="C" class="linkBox">
+						<p>Reaper<br class="textBreak" /> Miniatures<br class="textBreak" /><span class="optionalText">Dark Heaven</span><br class="textBreak" /><span class="optionalText">Bones</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- End header -->
+
+	<div id="sectionA" class="sections">
+
+		<div class="arrowDiv">
+			<div id="sectionAArrowUp" class="arrowUp"></div>
+		</div>
+
+		<div id="deckContainer">
+			<div id="deckArrowLeft" class="arrowLeft"></div>
+			<div class="flipContainer" id="card">
+				<div class="flipper">
+					<div class="front">
+						<img id="deckFront" src="images/decks/8_bit/front.jpg" alt="Front of card" />
+					</div>
+					<div class="back">
+						<img id="deckBack" src="images/decks/8_bit/back.jpg" alt="Back of card" />
+					</div>
+				</div>
+			</div>
+			<div id="deckArrowRight" class="arrowRight"></div>
+			<button id="flipButton">Flip Box</button>
+		</div>
+
+		<div id="carouselContainer">
+		 	<div id="cardCarousel">
+				<div id="little1" class="littleCard cards optionalItem"></div>
+				<div id="medium1" class="mediumCard cards optionalItem"></div>
+				<div id="bigCard" class="cards"></div>
+				<div id="medium2" class="mediumCard cards optionalItem"></div>
+				<div id="little2" class="littleCard cards optionalItem"></div>
+
+				<div id="carouselArrowLeft" class="arrowLeft"></div>
+				<div id="carouselArrowRight" class="arrowRight"></div>
+			</div>
+		</div>
+		
+		<div class="arrowDiv bottomArrow">
+			<div id="sectionAArrowDown" class="arrowDown"></div>
+		</div>
+		
+	</div>
+
+	<div id="sectionB" class="sections">
+
+		<div class="arrowDiv">
+			<div id="sectionBArrowUp" class="arrowUp"></div>
+		</div>
+
+		<div id="portalContainer">
+			<div id="portalHolder">
+				<div id="skylanderBubble"></div>
+				<div id="skylander"></div>
+				<div id="skylanderBase"></div>
+			</div>
+		</div>
+
+		<div id="skyCardContainer">
+			<div id="skyCardHolder">
+				<div id="skyCardBorder"></div>
+				<div id="skyCards"></div>
+				<div id="skyArrowLeft" class="arrow arrowLeft"></div>
+				<div id="skyArrowRight" class="arrow arrowRight"></div>
+			</div>
+		</div>
+
+		<div class="arrowDiv bottomArrow">
+			<div id="sectionBArrowDown" class="arrowDown"></div>
+		</div>
+	</div>
+
+	<div id="sectionC" class="sections">
+		
+		<div class="arrowDiv">
+			<div id="sectionCArrowUp" class="arrowUp"></div>
+		</div>
+
+		<div id="infoContainer">
+			<div id="reaperInfo">
+				<h1 id="monsterName">Monster</h1>
+				<h2 id="monsterArtist">Artist: </h2>
+				<h2 id="monsterPart">Part # </h2>
+			</div>
+		</div>
+		<div id="displayContainer">
+			<div id="reaperDisplay">
+				<img id="leftArrow" src="images/arrows/arrow_brick_left.gif" alt="left arrow" />
+				<img id="reaperDoor" src="images/main/dungeon_door.png" alt="dungeon door" />
+				<img id="rightArrow" src="images/arrows/arrow_brick_right.gif" alt="right arrow" />
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<span>Contact: </span>
+		<a href="mailto:sharruce@aol.com"><img src="images/main/mail.png" id="mailIcon" alt="Email envelope" /></a>
+		<a id="referral" href="http://www.bruceasmith.com">Designed by Bruce Smith Technical Consulting</a>
+	</div>
+</body>
+</html>
+
+
+

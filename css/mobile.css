@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+body { 
+	margin: 0px;
+}
+
+#header {
+	min-height: 200px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#styleOptions {
+	position: static;
+	text-align: center;
+	margin: 0 auto;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+}
+#introText {
+	overflow: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0px;
+	width: 240px;
+	height: 95px;
+}
+#introText p{
+	text-align: left;
+	margin: 0px;
+	padding: 10px 25px 10px 25px;
+	color: black;
+	font-size: 1.00em;
+	line-height: 1.25em;
+	font-weight: 500;
+	width: 190px;
+}
+.linkBoxContainer {
+	width: 100%;
+	padding-top: 0px;
+}
+.linkBoxSubContainer {
+	width: 172px;
+}
+.linkBox {
+	clear: both;
+	width: 170px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 200;
+}
+.textBreak {
+	display: none;
+}
+#A p {
+	margin: 0 auto;
+	margin-top: 5px;
+	text-align: center;
+}
+#B p {
+	margin-top: 5px;
+}
+#C p {
+	margin-top: 5px;
+}
+.optionalText {
+	display: none;
+}
+
+/* Begin section A (cards) */
+#sectionA {
+	width: 100%;
+	min-height: 700px;
+}
+#deckContainer {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	height: 330px;
+}
+#deckArrowLeft {
+	left: -5px;
+	z-index: 20;
+}
+#deckArrowRight {
+	left: 231px;
+}
+#deckFront {
+	width: 200px;
+	height: 278px;
+}
+#deckBack {
+	width: 200px;
+	height: 278px;
+}
+.optionalItem {
+	display: none;
+}
+#carouselContainer {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 370px;
+}
+#cardCarousel {
+	float: none;
+	position: relative;
+	display: inline-block;
+	min-width: 230px;
+	min-height: 280px;	
+	margin-top: 10px;
+	margin-bottom: 70px;
+	background: transparent;
+}
+.cards {
+	width: 197px;
+}
+#bigCard {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	top: 0px;
+	left: -23px;
+	min-width: 190px;
+	min-height: 277px;
+}
+#flipButton {
+	top: 290px;
+}
+#carouselArrowLeft {
+	position: absolute;
+	top: 130px;
+	left: -41px;
+	z-index: 100;
+}
+#carouselArrowRight {
+	position: absolute;
+	top: 130px;
+	left: 194px;
+	z-index: 100;
+}
+/* End section A (cards) */
+
+#sectionB {
+	min-height: 690px;
+}
+#portalContainer {
+	position: relative;
+	display: block;
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	height: 235px;
+}
+#portalHolder {
+	float: none;
+	position: relative;
+	display: inline-block;
+	min-width: 240px;
+	min-height: 240px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#skylanderBubble {
+	position: absolute;
+	left: 0px;
+	min-width: 240px;
+	min-height: 240px;
+	border-radius: 50%;
+}
+#skylander {
+	position: absolute;
+	top: 19px;
+	left: 20px;
+	min-width: 200px;
+	min-height: 200px;
+}
+#skylanderBase {
+	display: none;
+}
+#skyCardContainer {
+	position: relative;
+	clear: left;
+	display: block;
+	width: 100%;
+	min-height: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+#skyCardHolder {
+	float: none;
+	display: inline-block;
+	min-width: 270px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+#skyArrowLeft {
+	top: 110px;
+	left: 0px;
+}
+#skyArrowRight {
+	top: 110px;
+	left: 237px;
+}
+#skyCardBorder {
+	top: 0px;
+	left: 35px;
+	min-width: 200px;
+	min-height: 277px;
+}
+#skyCards {
+	top: 10px;
+	left: 45px;
+	min-width: 180px;
+	min-height: 257px;
+}
+
+#sectionC {
+	position: relative;
+	min-height: 500px;
+}
+#displayContainer {
+	position: absolute;
+	overflow: auto;
+	top: 60px;
+	min-height: 300px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+#infoContainer {
+	position: absolute;
+	overflow: auto;
+	top: 380px;
+	min-height: 100px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+#reaperDisplay {
+	float: none;
+	width: 240px;
+	text-align: center;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: 240px;
+}
+#reaperInfo {
+	float: none;
+	width: 240px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 1em;
+	padding: 1px;
+}
+#reaperInfo h1 {
+	font-size: 20px;
+}
+#reaperInfo h1, h2, h3 {
+	font-weight: 400;
+}
+#reaperDoor {
+	display: block;
+	width: 240px;
+}
+#leftArrow {
+	position: absolute;
+	top: 142px;
+	left: 5px;
+	width: 32px;
+}
+#rightArrow {
+	position: absolute;
+	top: 140px;
+	left: 200px;
+	width: 32px;
+}
+#footer {
+	height: 80px;
+}
+
+/*  Adjust so that left and right arrows do not overflow display on smaller screens,
+    especially 240px screens */
+@media screen and (max-width: 265px) {
+	#deckFront, #deckBack {
+		width: 200px;
+	}
+	.flipContainer, .front, .back{
+		width: 200px;
+	}
+	#deckContainer {
+		width: 240px; 
+	}
+	#deckArrowLeft {
+		left: 0px;
+	}
+	#deckArrowRight {
+		left: 210px;
+	}
+	#flipButton {
+		left: 80px;
+	}
+	#carouselContainer {
+		width: 100%;
+	}
+	#cardCarousel {
+		display: block;
+		min-width: 230px;
+		margin: 0 auto;
+	}
+	#bigCard {
+		left: 0px;
+	}
+	#carouselArrowLeft {
+		left: 0px;
+	}
+	#carouselArrowRight {
+		left: 210px;
+	}
+	#skyCardHolder {
+		min-width: 200px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#skyCardBorder {
+		left: 0px;
+	}
+	#skyCards {
+		left: 10px;
+	}
+	#skyArrowLeft {
+		position: absolute;
+		left: -20px;
+		z-index: 100;
+	}
+	#skyArrowRight {
+		position: absolute;
+		left: 190px;
+		z-index: 100;
+	}
+
+}
+
+
